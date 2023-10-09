@@ -11,6 +11,15 @@ export class Lift {
     ) {}
     
     moveTo(floor: Floor): void {
+        const usersWeight = this.users.reduce((acc, user) => acc + user.weight, 0);
+        if (usersWeight > Lift.MAX_WEIGHT) {
+            this.beep();
+            return;
+        }
         this.floor = floor;
+    }
+
+    beep(): void {
+        console.log('Beep');
     }
 }
