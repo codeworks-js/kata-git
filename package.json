@@ -1,0 +1,15 @@
+{
+  "name": "kata-git",
+  "version": "0.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paolo Manaois",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "20.8.3",
+    "typescript": "5.2.2"
+  }
+}
