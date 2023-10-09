@@ -1,3 +1,3 @@
 export class User {
-    constructor(private weight: number) {}
+    constructor(readonly weight: number) {}
 }
