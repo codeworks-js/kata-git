@@ -1,5 +1,8 @@
 import { Button } from "./Button";
+import {User} from "./User";
 
 export class Lift {
-    constructor(private buttons: Button[]) {}
+    MAX_WEIGHT = 800
+    constructor(private buttons: Button[], private users: User[]) {}
+
 }
