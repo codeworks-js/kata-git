@@ -9,5 +9,8 @@ export class Lift {
         private users: User[], 
         private floor: Floor
     ) {}
-
+    
+    moveTo(floor: Floor): void {
+        this.floor = floor;
+    }
 }
